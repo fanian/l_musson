@@ -630,7 +630,7 @@ table, th
             bottom: 218px
 .crossLine
   text-align: center
-  float: center
+  float: none
   display: inline-block
   h2
     float: left
@@ -811,6 +811,77 @@ table, th
 .footer
   margin-bottom: 30px
 
+
+
+#feedback
+  display: none
+
+  .form-block
+    width: 313px
+    height: 395px
+    @include border-radius(5px)
+    @include background-clip(padding-box)
+    background-color: rgba(255, 255, 255, .72)
+    @include box-shadow(0 1px 2px rgba(0, 0, 0, .74))
+
+    h2
+      width: 313px
+      height: 100px
+      @include border-radius(5px 5px 0 0)
+      @include background-clip(padding-box)
+      background: #fb8c5e
+      /* Old browsers */
+      background: -moz-linear-gradient(top, #fb8c5e 0%, #f9895b 5%, #fc8358 12%, #f77c52 23%, #f86342 44%, #f66141 47%, #f35c3f 48%, #f04e35 63%, #f44a33 66%, #f3402c 75%, #ec3523 87%, #ef2e1f 100%)
+      /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fb8c5e), color-stop(5%, #f9895b), color-stop(12%, #fc8358), color-stop(23%, #f77c52), color-stop(44%, #f86342), color-stop(47%, #f66141), color-stop(48%, #f35c3f), color-stop(63%, #f04e35), color-stop(66%, #f44a33), color-stop(75%, #f3402c), color-stop(87%, #ec3523), color-stop(100%, #ef2e1f))
+      /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, #fb8c5e 0%, #f9895b 5%, #fc8358 12%, #f77c52 23%, #f86342 44%, #f66141 47%, #f35c3f 48%, #f04e35 63%, #f44a33 66%, #f3402c 75%, #ec3523 87%, #ef2e1f 100%)
+      /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, #fb8c5e 0%, #f9895b 5%, #fc8358 12%, #f77c52 23%, #f86342 44%, #f66141 47%, #f35c3f 48%, #f04e35 63%, #f44a33 66%, #f3402c 75%, #ec3523 87%, #ef2e1f 100%)
+      /* Opera 11.10+ */
+      background: -ms-linear-gradient(top, #fb8c5e 0%, #f9895b 5%, #fc8358 12%, #f77c52 23%, #f86342 44%, #f66141 47%, #f35c3f 48%, #f04e35 63%, #f44a33 66%, #f3402c 75%, #ec3523 87%, #ef2e1f 100%)
+      /* IE10+ */
+      background: linear-gradient(to bottom, #fb8c5e 0%, #f9895b 5%, #fc8358 12%, #f77c52 23%, #f86342 44%, #f66141 47%, #f35c3f 48%, #f04e35 63%, #f44a33 66%, #f3402c 75%, #ec3523 87%, #ef2e1f 100%)
+      /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb8c5e', endColorstr='#ef2e1f', GradientType=0)
+      /* IE6-9 */
+      margin: 0
+      color: #fff
+      font-size: 21px
+      font-weight: bold
+      @include text-shadow(0 1px 1px rgba(0, 0, 0, .27))
+      text-transform: uppercase
+      text-align: center
+      padding-top: 25px
+      margin-bottom: 30px
+
+    input
+      width: 245px
+      display: block
+      margin: auto
+      margin-bottom: 15px
+
+    button
+      width: 250px
+      height: 40px
+      display: block
+      margin: 0 auto
+      border: none
+      color: #fff
+      font-size: 15px
+      text-transform: uppercase
+      font-weight: bold
+      @include text-shadow(0 1px 1px rgba(0, 0, 0, .27))
+
+.fancybox-close
+  background: url("../img/close-btn.png") no-repeat !important
+  width: 25px !important
+  height: 25px !important
+  right: 5px !important
+  top: 5px !important
+
+.animated
+  visibility: hidden
 
 
 
