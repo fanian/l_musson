@@ -1,0 +1,828 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic-ext)
+
+$f: 'PT Sans', sans-serif
+
+body
+  font-family: $f
+  background: #ffffff
+  min-width: 1200px
+  min-height: 200px
+
+*, *:before, *:after
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  outline: none
+
+@import "compass/css3"
+@import "placeholderText.scss"
+
+input
+  @include input-placeholder
+    color: #000
+
+.wrapper
+  width: 1000px
+  margin: 0 auto
+  position: relative
+  padding-top: 26px
+
+  h2
+    display: inline-block
+    float: left
+    margin-left: 90px
+    font-size: 24px
+    font-weight: normal
+
+  .tel
+    float: right
+    background: url("../img/phone_ico.png") left center no-repeat
+    padding-left: 30px
+
+    h3
+      margin: 0
+      font-size: 30px
+    p
+      margin: 0
+      font-size:  14px
+      text-align: right
+
+
+.fl
+  float: left
+
+.fr
+  float: right
+
+.cb
+  clear: both
+
+header
+  @include background-size(cover)
+  background: url("../img/image_top.jpg") center no-repeat
+  height: 784px
+
+  .descr
+    text-align: center
+    .wrapper
+      padding-top: 10px
+      h2
+        text-transform: uppercase
+        font-size: 34px
+        font-weight: bold
+        display: inline-block
+        margin: 0
+      h3
+        font-size: 24px
+        display: inline-block
+        margin: 0
+        font-weight: normal
+
+
+input
+  height: 33px
+  border: 1px solid rgba(0, 0, 0, .16)
+  @include border-radius(5px)
+  background-color: #fff
+  @include box-shadow(inset 0 1px 3px rgba(0, 0, 0, .55))
+  margin: 0 5px
+
+.form-cond
+  .wrapper
+    position: relative
+    height: 588px
+    padding-top: 265px
+    .shadow
+      position: absolute
+      background: url("../img/shadow.png") no-repeat
+      width: 510px
+      height: 48px
+      bottom: 32px
+      left: 49%
+
+  .form-block
+
+    width: 510px
+    height: 250px
+    @include border-radius(5px)
+
+    //background: rgba(233, 233, 233, .9)
+    @include background(linear-gradient(top left,rgb(240,240,240),rgb(225,225,225)))
+    //for IE
+    background-color: #e1e1e1
+
+
+
+  .form-inner
+    width: 495px
+    height: 240px
+    border: solid 1px black
+    @include border-radius(5px)
+    margin: 4px auto
+    .caption
+      width: 295px
+      padding-left: 36px
+      p
+        text-transform: uppercase
+        font-size: 26px
+        display: inline-block
+        font-weight: bold
+        width: 230px
+        margin-bottom: 19px
+        float: left
+        line-height: 1.2em
+      h6
+        font-size: 11px
+        margin: 1.6em 0
+    .message
+      text-align: center
+      .free
+        background-image: url(../img/free.png)
+        width: 123px
+        height: 33px
+        margin: 24px auto 0 27px
+      h4
+        font-size: 18px
+        text-decoration: line-through
+        margin-top: 10px
+        margin-bottom: 15px
+        margin-left: 15px
+      .button
+        height: 78px
+        border: 1px ridge transparent
+        display: block
+        width: 148px
+        @include border-radius(4px)
+        margin-left: 16px
+        background: orangered
+        @include background(linear-gradient(top, rgb(255,134,0), rgb(224, 34, 0)))
+        @include box-shadow(0 1px 5px rgba(0,0,0,.5), inset 0 1px 0 #e02200)
+
+        &:hover
+          @include background(linear-gradient(top, rgb(111, 181, 11), rgb(65,115,0)))
+          @include box-shadow(0 1px 5px rgba(0,0,0,.5), inset 0 1px 0 #6FB50B)
+          //for IE
+          background-color: green
+        .arrow
+          background-image: url(../img/arrow.png)
+          width: 36px
+          height: 33px
+          position: absolute
+          bottom: 138px
+          right: 32px
+
+        .btn
+          @include border-radius(4px)
+          width: 140px
+          line-height: 90%
+          height: 70px
+          margin: 3px auto
+          border: dotted 1px #ffffff
+          color: #fff
+          font-size: 24px
+          text-align: left
+          font-weight: bold
+          background: transparent
+          @include text-shadow(1px 1px 1px rgba(0, 0, 0, .27))
+
+
+
+
+  input
+    width: 260px
+    display: block
+    margin: auto auto 12px
+
+    &.name
+      background: #fff 10px 8px
+      padding-left: 8px
+      font-size: 14px
+      font-style: italic
+      color: black
+      font-weight: bold
+    &.phone
+      background: #fff 10px 8px
+      padding-left: 8px
+      font-size: 14px
+      font-style: italic
+      color: black
+      font-weight: bold
+
+
+.benefits
+  height: 154px
+  padding-top: 18px
+  .wrapper
+    padding-left: 15px
+
+  .experience
+    background: url(../img/experience.png) left center no-repeat
+    width: 79px
+    height: 76px
+    padding-right: 294px
+    h3
+      text-transform: uppercase
+      font-size: 18px
+      display: inline-block
+      margin-top: 12px
+      margin-left: 90px
+
+
+  .equipment
+    background: url(../img/equipment.png) left center no-repeat
+    width: 77px
+    height: 76px
+    padding-right: 407px
+    h3
+      text-transform: uppercase
+      font-size: 18px
+      display: inline-block
+      margin-top: 12px
+      margin-left: 90px
+      width: 244px
+  .quality
+    background: url(../img/quality.png) left center no-repeat
+    width: 75px
+    height: 76px
+
+    h3
+      text-transform: uppercase
+      font-size: 18px
+      display: inline-block
+      margin-top: 12px
+      margin-left: 90px
+      width: 244px
+.aboutUs
+  text-align: center
+
+
+  h2
+    font-size: 34px
+    font-weight: bold
+    text-transform: uppercase
+    margin: 0
+    float: none
+    line-height: 1.1em
+
+.ourWorks
+  margin-top: -5px
+  .forHome
+    background: url(../img/forHome.png) center no-repeat
+    width: 505px
+    height: 537px
+  .forOffice
+    background: url(../img/forOffice.png) center no-repeat
+    width: 495px
+    height: 537px
+
+
+.shadowWide
+  background: url(../img/shadowWide.png) bottom no-repeat
+  height: 41px
+  width: 1000px
+  position: relative
+  margin: 44px auto auto
+
+.formWide
+  background: url(../img/backgroundFormWide.png)
+  height: 244px
+
+  .formWideBlock
+    margin: auto
+    width: 960px
+    height: 200px
+    @include border-radius(5px)
+    position: relative
+    top: 45px
+    //for IE
+    background-color: #e1e1e1
+
+    padding-top: 1px
+    .caption
+      width: 295px
+      padding-left: 36px
+      .free
+        background: url(../img/free.png)
+        position: relative
+        top: 50px
+        left: 623px
+        width: 123px
+        height: 33px
+
+      p
+        text-transform: uppercase
+        font-size: 26px
+        display: inline-block
+        font-weight: bold
+        width: 860px
+        margin-bottom: 19px
+        margin-top: 20px
+        float: left
+        line-height: 1.2em
+
+
+
+
+    //background: rgba(233, 233, 233, .9)
+    @include background(linear-gradient(top left,rgb(240,240,240),rgb(225,225,225)))
+    .caption
+      text-align: center
+
+
+
+
+
+  .formInner
+    width: 950px
+    height: 190px
+    border: solid 1px black
+    @include border-radius(5px)
+    margin: 4px auto
+    input
+      width: 260px
+      display: block
+      margin: auto auto 12px
+
+      &.name
+        background: #fff 10px 8px
+        padding-left: 8px
+        font-size: 14px
+        font-style: italic
+        color: black
+        font-weight: bold
+        margin-left: 70px
+      &.phone
+        background: #fff 10px 8px
+        padding-left: 8px
+        font-size: 14px
+        font-style: italic
+        color: black
+        font-weight: bold
+        margin-left: 15px
+    h6
+      position: relative
+      bottom: 16px
+      right: 534px
+      display: inline-block
+    .button
+      height: 40px
+      border: 1px ridge transparent
+      display: block
+      width: 250px
+      @include border-radius(4px)
+      margin-left: 20px
+      margin-top: -4px
+      background: orangered
+      @include background(linear-gradient(top, rgb(255,134,0), rgb(224, 34, 0)))
+      @include box-shadow(0 1px 5px rgba(0,0,0,.5), inset 0 1px 0 #e02200)
+
+      &:hover
+        @include background(linear-gradient(top, rgb(111, 181, 11), rgb(65,115,0)))
+        @include box-shadow(0 1px 5px rgba(0,0,0,.5), inset 0 1px 0 #6FB50B)
+        //for IE
+        background-color: green
+      .arrow
+        background-image: url(../img/arrow.png)
+        width: 36px
+        height: 33px
+        position: absolute
+        bottom: 55px
+        right: 70px
+
+      .btn
+        @include border-radius(4px)
+        width: 243px
+        line-height: 90%
+        height: 32px
+        margin: 3px auto 4px 3px
+        padding-left: 8px
+        padding-bottom: 5px
+        border: dotted 1px #ffffff
+        color: #fff
+        font-size: 24px
+        text-align: left
+        font-weight: bold
+        background: transparent
+        @include text-shadow(1px 1px 1px rgba(0, 0, 0, .27))
+
+.whats
+  height: 896px
+  @include background(linear-gradient(top, rgb(245,252,252), rgb(225, 232, 232)))
+  padding-top: 35px
+  border-bottom: solid 3px grey
+  .items
+    padding-top: 55px
+    width: 980px
+    margin: 0 auto
+
+  .item-block-button
+    margin-left: 90px
+
+  .item-block
+    float: left
+
+    p
+      font-size: 16px
+      line-height: 1.2em
+
+    h3
+      text-transform: uppercase
+      display: inline-block
+      width: 362px
+      margin: 0
+      font-size: 18px
+    img
+      float: left
+      margin-bottom: 90px
+      margin-right: 30px
+  .button
+    height: 76px
+    border: 1px ridge transparent
+    display: block
+    width: 332px
+    @include border-radius(4px)
+    margin-left: 20px
+    margin-top: -4px
+    background: orangered
+    @include background(linear-gradient(top, rgb(255,134,0), rgb(224, 34, 0)))
+    @include box-shadow(0 1px 5px rgba(0,0,0,.5), inset 0 1px 0 #e02200)
+
+    &:hover
+      @include background(linear-gradient(top, rgb(111, 181, 11), rgb(65,115,0)))
+      @include box-shadow(0 1px 5px rgba(0,0,0,.5), inset 0 1px 0 #6FB50B)
+      //for IE
+      background-color: green
+    .arrow
+      background-image: url(../img/arrow.png)
+      width: 36px
+      height: 33px
+      position: relative
+      bottom: 35px
+      left: 303px
+    .btn
+      @include border-radius(4px)
+      width: 326px
+      line-height: 90%
+      height: 70px
+      margin: 2px auto 4px 2px
+      padding-left: 25px
+      padding-bottom: 5px
+      padding-right: 22px
+      border: dotted 1px #ffffff
+      color: #fff
+      font-size: 24px
+      text-align: left
+      font-weight: bold
+      background: transparent
+      @include text-shadow(1px 1px 1px rgba(0, 0, 0, .27))
+
+  .descr
+    width: 480px
+    height: 166px
+
+
+.reasons
+  height: 165px
+  @include background(linear-gradient(top, rgb(229, 242, 254), rgb(255,255,255)))
+  .wrapper
+    h2
+      float: none
+      font-weight: bold
+      font-size: 48px
+      margin-left: 22px
+      margin-top: 0
+      margin-bottom: 0
+    p
+      display: inline-block
+      margin: 0
+      width: 152px
+      padding-left: 15px
+      font-size: 16px
+      line-height: 1.1em
+
+
+  h2
+    font-size: 34px
+    font-weight: bold
+    text-transform: uppercase
+    margin: 0
+    float: none
+    line-height: 1.1em
+.photo
+  text-align: center
+
+
+  h2
+    font-size: 34px
+    font-weight: bold
+    text-transform: uppercase
+    margin: 0
+    float: none
+    line-height: 1.1em
+  .gallery
+    width: 943px
+    height: 425px
+    border: solid black 1px
+    margin-bottom: 20px
+
+
+table, th
+  border: solid 1px lightgrey
+  text-align: center
+  margin-bottom: 15px
+
+  th
+    &.vertical
+      width: 300px
+      height: 153px
+      border: solid 1px lightgrey
+      font-size: 20px
+      text-transform: uppercase
+      vertical-align: top
+      padding: 15px
+      line-height: 1.6em
+
+      span
+        font-weight: normal
+        text-transform: none
+        margin-top: 4px
+      .button
+        margin-top: 18px
+        height: 40px
+        border: 1px ridge transparent
+        display: block
+        width: 250px
+        @include border-radius(4px)
+        margin-left: 20px
+        margin-top: 14px
+        background: orangered
+        @include background(linear-gradient(top, rgb(255,134,0), rgb(224, 34, 0)))
+        @include box-shadow(0 1px 5px rgba(0,0,0,.5), inset 0 1px 0 #e02200)
+
+
+        &:hover
+          @include background(linear-gradient(top, rgb(111, 181, 11), rgb(65,115,0)))
+          @include box-shadow(0 1px 5px rgba(0,0,0,.5), inset 0 1px 0 #6FB50B)
+          //for IE
+          background-color: green
+        .arrow
+          background-image: url(../img/arrow.png)
+          width: 36px
+          height: 33px
+          position: absolute
+          bottom: 31px
+          left: 260px
+
+        .btn
+          @include border-radius(4px)
+          width: 243px
+          line-height: 90%
+          height: 32px
+          margin: 3px auto 4px 3px
+          padding-left: 8px
+          padding-bottom: 5px
+          border: dotted 1px #ffffff
+          color: #fff
+          font-size: 24px
+          text-align: left
+          font-weight: bold
+          background: transparent
+          @include text-shadow(1px 1px 1px rgba(0, 0, 0, .27))
+    &.horizontal
+      width: 650px
+      height: 40px
+      border-bottom: 0
+      background: rgb(234, 246, 251)
+      font-size: 18px
+      font-weight: normal
+
+  td
+    font-size: 20px
+    width: 160px
+    height: 55px
+    border-right: dotted 1px lightgrey
+    border-bottom: solid 1px lightgrey
+    span
+      font-weight: bold
+.order
+  background: url(../img/zakaz.jpg) center no-repeat
+  height: 610px
+  margin-top: 15px
+
+  .wrapper
+    height: 510px
+    padding-top: 100px
+    h5
+      display: inline-block
+      position: relative
+      top: 294px
+      left: 496px
+      font-size: 16px
+      line-height: 1.1em
+      font-weight: bold
+    .shadow
+      padding-bottom: 134px
+  .form-cond
+    .form-inner
+      .message
+        .button
+          .arrow
+            bottom: 218px
+.crossLine
+  text-align: center
+  float: center
+  display: inline-block
+  h2
+    float: left
+    font-size: 34px
+    font-weight: bold
+    text-transform: uppercase
+    margin: 0 25px
+
+    line-height: 1.1em
+  .dash
+    background: url(../img/dash.png) center center no-repeat
+    width: 60px
+    height: 36px
+.partners
+  text-align: center
+  margin-top: 40px
+  .hows
+    margin: 100px auto 0
+    width: 1009px
+
+  .block
+    p
+      margin-right: 20px
+      font-size: 18px
+      font-weight: bold
+      line-height: 1.1em
+.certificates
+  text-align: center
+  margin-top: 60px
+  margin-bottom: 40px
+  img
+    float: left
+    margin-right: 20px
+.belongs
+  text-align: center
+  margin-top: 60px
+  margin-bottom: 10px
+  .formWide
+    background: #ffffff
+
+  img
+    float: left
+    margin-right: 30px
+    margin-bottom: 40px
+  .formWide .formInner h6
+    right: 581px
+
+.reviews
+  text-align: center
+  margin-bottom: 40px
+  margin-top: 50px
+
+  .button
+    height: 40px
+    border: 1px ridge transparent
+    display: inline-block
+    width: 250px
+    @include border-radius(4px)
+
+    margin-top: -4px
+    background: orangered
+    @include background(linear-gradient(top, rgb(255,134,0), rgb(224, 34, 0)))
+    @include box-shadow(0 1px 5px rgba(0,0,0,.5), inset 0 1px 0 #e02200)
+
+    &:hover
+      @include background(linear-gradient(top, rgb(111, 181, 11), rgb(65,115,0)))
+      @include box-shadow(0 1px 5px rgba(0,0,0,.5), inset 0 1px 0 #6FB50B)
+      //for IE
+      background-color: green
+    .arrow
+      background-image: url(../img/arrow.png)
+      width: 36px
+      height: 33px
+      position: relative
+      bottom: 30px
+      left: 225px
+
+    .btn
+      @include border-radius(4px)
+      width: 243px
+      line-height: 90%
+      height: 32px
+      margin: 3px auto 4px 3px
+      padding-left: 8px
+      padding-bottom: 5px
+      border: dotted 1px #ffffff
+      color: #fff
+      font-size: 24px
+      text-align: left
+      font-weight: bold
+      background: transparent
+      @include text-shadow(1px 1px 1px rgba(0, 0, 0, .27))
+
+  .wrapper
+    padding-top: 50px
+
+
+  .view
+    width: 470px
+    height: 550px
+    border: solid 1px lightgrey
+    margin-top: 40px
+    @include border-radius(5px)
+    .person
+      margin-top: 35px
+      img
+        float: left
+        margin-left: 35px
+        margin-bottom: 40px
+    .text
+      text-align: left
+      margin-left: 20px
+      font-weight: bold
+      p
+        margin: 0
+        font-size: 24px
+      a
+        font-size: 16px
+
+    .personBorder
+      background: url(../img/personBorder.png)
+      width: 366px
+      height: 19px
+      margin-left: 40px
+    .personReview
+      margin-left: 30px
+      margin-right: 25px
+      margin-top: 30px
+      line-height: 1.2em
+
+      blockquote
+        font-size: 18px
+        padding: 0
+        font-style: italic
+        text-align: left
+
+        margin: 0
+
+        background: url(../img/openQuote.png) no-repeat
+        text-indent: 0
+        span
+          display: block
+          background: url(../img/closeQuote.png) bottom right no-repeat
+          padding-left: 30px
+          padding-right: 30px
+
+.orderBottom
+  @extend .order
+  background: url(../img/order.jpg) center no-repeat
+  .form-cond
+    .form-inner
+
+      .caption
+        p
+          margin-top: 15px
+          margin-bottom: 9px
+          line-height: 1.1em
+      .arrow
+        top: 228px
+
+
+  .wrapper
+    padding-top: 70px
+    height: 389px
+    .form-inner
+      width: 500px
+      .form-cond
+        height: 609px
+
+    .shadow
+      top: 313px
+      padding-bottom: 0
+
+    h5
+      bottom: 20px
+      top: 0
+      width: 495px
+.footer
+  margin-bottom: 30px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
