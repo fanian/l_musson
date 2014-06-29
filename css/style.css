@@ -134,13 +134,13 @@ input {
 }
 
 /* line 91, H:/proj/musson/sass/style.sass */
-.form-cond .wrapper {
+.form-cond .wrapper, #feedback .wrapper {
   position: relative;
   height: 588px;
   padding-top: 265px;
 }
 /* line 95, H:/proj/musson/sass/style.sass */
-.form-cond .wrapper .shadow {
+.form-cond .wrapper .shadow, #feedback .wrapper .shadow {
   position: absolute;
   background: url("../img/shadow.png") no-repeat;
   width: 510px;
@@ -149,7 +149,7 @@ input {
   left: 49%;
 }
 /* line 103, H:/proj/musson/sass/style.sass */
-.form-cond .form-block {
+.form-cond .form-block, #feedback .form-block {
   width: 510px;
   height: 250px;
   -webkit-border-radius: 5px;
@@ -165,7 +165,7 @@ input {
   background-color: #e1e1e1;
 }
 /* line 116, H:/proj/musson/sass/style.sass */
-.form-cond .form-inner {
+.form-cond .form-inner, #feedback .form-inner {
   width: 495px;
   height: 240px;
   border: solid 1px black;
@@ -177,12 +177,12 @@ input {
   margin: 4px auto;
 }
 /* line 122, H:/proj/musson/sass/style.sass */
-.form-cond .form-inner .caption {
+.form-cond .form-inner .caption, #feedback .form-inner .caption {
   width: 295px;
   padding-left: 36px;
 }
 /* line 125, H:/proj/musson/sass/style.sass */
-.form-cond .form-inner .caption p {
+.form-cond .form-inner .caption p, #feedback .form-inner .caption p {
   text-transform: uppercase;
   font-size: 26px;
   display: inline-block;
@@ -193,23 +193,23 @@ input {
   line-height: 1.2em;
 }
 /* line 134, H:/proj/musson/sass/style.sass */
-.form-cond .form-inner .caption h6 {
+.form-cond .form-inner .caption h6, #feedback .form-inner .caption h6 {
   font-size: 11px;
   margin: 1.6em 0;
 }
 /* line 137, H:/proj/musson/sass/style.sass */
-.form-cond .form-inner .message {
+.form-cond .form-inner .message, #feedback .form-inner .message {
   text-align: center;
 }
 /* line 139, H:/proj/musson/sass/style.sass */
-.form-cond .form-inner .message .free {
+.form-cond .form-inner .message .free, #feedback .form-inner .message .free {
   background-image: url(../img/free.png);
   width: 123px;
   height: 33px;
   margin: 24px auto 0 27px;
 }
 /* line 144, H:/proj/musson/sass/style.sass */
-.form-cond .form-inner .message h4 {
+.form-cond .form-inner .message h4, #feedback .form-inner .message h4 {
   font-size: 18px;
   text-decoration: line-through;
   margin-top: 10px;
@@ -217,7 +217,7 @@ input {
   margin-left: 15px;
 }
 /* line 150, H:/proj/musson/sass/style.sass */
-.form-cond .form-inner .message .button {
+.form-cond .form-inner .message .button, #feedback .form-inner .message .button {
   height: 78px;
   border: 1px ridge transparent;
   display: block;
@@ -239,7 +239,7 @@ input {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5), inset 0 1px 0 #e02200;
 }
 /* line 161, H:/proj/musson/sass/style.sass */
-.form-cond .form-inner .message .button:hover {
+.form-cond .form-inner .message .button:hover, #feedback .form-inner .message .button:hover {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6fb50b), color-stop(100%, #417300));
   background: -webkit-linear-gradient(top, #6fb50b, #417300);
   background: -moz-linear-gradient(top, #6fb50b, #417300);
@@ -251,7 +251,7 @@ input {
   background-color: green;
 }
 /* line 166, H:/proj/musson/sass/style.sass */
-.form-cond .form-inner .message .button .arrow {
+.form-cond .form-inner .message .button .arrow, #feedback .form-inner .message .button .arrow {
   background-image: url(../img/arrow.png);
   width: 36px;
   height: 33px;
@@ -260,7 +260,7 @@ input {
   right: 32px;
 }
 /* line 174, H:/proj/musson/sass/style.sass */
-.form-cond .form-inner .message .button .btn {
+.form-cond .form-inner .message .button .btn, #feedback .form-inner .message .button .btn {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -279,13 +279,13 @@ input {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.27);
 }
 /* line 191, H:/proj/musson/sass/style.sass */
-.form-cond input {
+.form-cond input, #feedback input {
   width: 260px;
   display: block;
   margin: auto auto 12px;
 }
 /* line 196, H:/proj/musson/sass/style.sass */
-.form-cond input.name {
+.form-cond input.name, #feedback input.name {
   background: white 10px 8px;
   padding-left: 8px;
   font-size: 14px;
@@ -294,7 +294,7 @@ input {
   font-weight: bold;
 }
 /* line 203, H:/proj/musson/sass/style.sass */
-.form-cond input.phone {
+.form-cond input.phone, #feedback input.phone {
   background: white 10px 8px;
   padding-left: 8px;
   font-size: 14px;
@@ -876,7 +876,7 @@ table td span, th td span {
   padding-bottom: 134px;
 }
 /* line 629, H:/proj/musson/sass/style.sass */
-.order .form-cond .form-inner .message .button .arrow, .orderBottom .form-cond .form-inner .message .button .arrow {
+.order .form-cond .form-inner .message .button .arrow, .orderBottom .form-cond .form-inner .message .button .arrow, .order #feedback .form-inner .message .button .arrow, .orderBottom #feedback .form-inner .message .button .arrow {
   bottom: 218px;
 }
 
@@ -1101,13 +1101,13 @@ table td span, th td span {
   background: url(../img/order.jpg) center no-repeat;
 }
 /* line 787, H:/proj/musson/sass/style.sass */
-.orderBottom .form-cond .form-inner .caption p {
+.orderBottom .form-cond .form-inner .caption p, .orderBottom #feedback .form-inner .caption p {
   margin-top: 15px;
   margin-bottom: 9px;
   line-height: 1.1em;
 }
 /* line 791, H:/proj/musson/sass/style.sass */
-.orderBottom .form-cond .form-inner .arrow {
+.orderBottom .form-cond .form-inner .arrow, .orderBottom #feedback .form-inner .arrow {
   top: 228px;
 }
 /* line 795, H:/proj/musson/sass/style.sass */
@@ -1120,7 +1120,7 @@ table td span, th td span {
   width: 500px;
 }
 /* line 800, H:/proj/musson/sass/style.sass */
-.orderBottom .wrapper .form-inner .form-cond {
+.orderBottom .wrapper .form-inner .form-cond, .orderBottom .wrapper .form-inner #feedback {
   height: 609px;
 }
 /* line 803, H:/proj/musson/sass/style.sass */
@@ -1140,96 +1140,16 @@ table td span, th td span {
   margin-bottom: 30px;
 }
 
-/* line 816, H:/proj/musson/sass/style.sass */
-#feedback {
-  display: none;
+/* line 817, H:/proj/musson/sass/style.sass */
+#feedback .form-inner .message .button .arrow {
+  bottom: 55px;
 }
 /* line 819, H:/proj/musson/sass/style.sass */
-#feedback .form-block {
-  width: 313px;
-  height: 395px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  -webkit-background-clip: padding;
-  -moz-background-clip: padding;
-  background-clip: padding-box;
-  background-color: rgba(255, 255, 255, 0.72);
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.74);
-  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.74);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.74);
-}
-/* line 827, H:/proj/musson/sass/style.sass */
-#feedback .form-block h2 {
-  width: 313px;
-  height: 100px;
-  -webkit-border-radius: 5px 5px 0 0;
-  -moz-border-radius: 5px 5px 0 0;
-  -ms-border-radius: 5px 5px 0 0;
-  -o-border-radius: 5px 5px 0 0;
-  border-radius: 5px 5px 0 0;
-  -webkit-background-clip: padding;
-  -moz-background-clip: padding;
-  background-clip: padding-box;
-  background: #fb8c5e;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #fb8c5e 0%, #f9895b 5%, #fc8358 12%, #f77c52 23%, #f86342 44%, #f66141 47%, #f35c3f 48%, #f04e35 63%, #f44a33 66%, #f3402c 75%, #ec3523 87%, #ef2e1f 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fb8c5e), color-stop(5%, #f9895b), color-stop(12%, #fc8358), color-stop(23%, #f77c52), color-stop(44%, #f86342), color-stop(47%, #f66141), color-stop(48%, #f35c3f), color-stop(63%, #f04e35), color-stop(66%, #f44a33), color-stop(75%, #f3402c), color-stop(87%, #ec3523), color-stop(100%, #ef2e1f));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #fb8c5e 0%, #f9895b 5%, #fc8358 12%, #f77c52 23%, #f86342 44%, #f66141 47%, #f35c3f 48%, #f04e35 63%, #f44a33 66%, #f3402c 75%, #ec3523 87%, #ef2e1f 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #fb8c5e 0%, #f9895b 5%, #fc8358 12%, #f77c52 23%, #f86342 44%, #f66141 47%, #f35c3f 48%, #f04e35 63%, #f44a33 66%, #f3402c 75%, #ec3523 87%, #ef2e1f 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #fb8c5e 0%, #f9895b 5%, #fc8358 12%, #f77c52 23%, #f86342 44%, #f66141 47%, #f35c3f 48%, #f04e35 63%, #f44a33 66%, #f3402c 75%, #ec3523 87%, #ef2e1f 100%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, #fb8c5e 0%, #f9895b 5%, #fc8358 12%, #f77c52 23%, #f86342 44%, #f66141 47%, #f35c3f 48%, #f04e35 63%, #f44a33 66%, #f3402c 75%, #ec3523 87%, #ef2e1f 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb8c5e', endColorstr='#ef2e1f', GradientType=0);
-  /* IE6-9 */
-  margin: 0;
-  color: white;
-  font-size: 21px;
-  font-weight: bold;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.27);
-  text-transform: uppercase;
-  text-align: center;
-  padding-top: 25px;
-  margin-bottom: 30px;
-}
-/* line 858, H:/proj/musson/sass/style.sass */
-#feedback .form-block input {
-  width: 245px;
-  display: block;
-  margin: auto;
-  margin-bottom: 15px;
-}
-/* line 864, H:/proj/musson/sass/style.sass */
-#feedback .form-block button {
-  width: 250px;
-  height: 40px;
-  display: block;
-  margin: 0 auto;
-  border: none;
-  color: white;
-  font-size: 15px;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.27);
+#feedback .form-inner .caption p {
+  width: 240px;
 }
 
-/* line 876, H:/proj/musson/sass/style.sass */
-.fancybox-close {
-  background: url("../img/close-btn.png") no-repeat !important;
-  width: 25px !important;
-  height: 25px !important;
-  right: 5px !important;
-  top: 5px !important;
-}
-
-/* line 883, H:/proj/musson/sass/style.sass */
+/* line 822, H:/proj/musson/sass/style.sass */
 .animated {
   visibility: hidden;
 }
