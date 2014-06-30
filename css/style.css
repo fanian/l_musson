@@ -735,17 +735,21 @@ input {
 .photo .gallery {
   width: 943px;
   height: 425px;
-  border: solid black 1px;
   margin-bottom: 20px;
 }
+/* line 526, H:/proj/musson/sass/style.sass */
+.photo .gallery .wrap {
+  width: 250px;
+  height: 100%;
+}
 
-/* line 529, H:/proj/musson/sass/style.sass */
+/* line 531, H:/proj/musson/sass/style.sass */
 table, th {
   border: solid 1px lightgrey;
   text-align: center;
   margin-bottom: 15px;
 }
-/* line 535, H:/proj/musson/sass/style.sass */
+/* line 537, H:/proj/musson/sass/style.sass */
 table th.vertical, th th.vertical {
   width: 300px;
   height: 153px;
@@ -756,13 +760,13 @@ table th.vertical, th th.vertical {
   padding: 15px;
   line-height: 1.6em;
 }
-/* line 545, H:/proj/musson/sass/style.sass */
+/* line 547, H:/proj/musson/sass/style.sass */
 table th.vertical span, th th.vertical span {
   font-weight: normal;
   text-transform: none;
   margin-top: 4px;
 }
-/* line 549, H:/proj/musson/sass/style.sass */
+/* line 551, H:/proj/musson/sass/style.sass */
 table th.vertical .button, th th.vertical .button {
   margin-top: 18px;
   height: 40px;
@@ -786,7 +790,7 @@ table th.vertical .button, th th.vertical .button {
   -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5), inset 0 1px 0 #e02200;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5), inset 0 1px 0 #e02200;
 }
-/* line 563, H:/proj/musson/sass/style.sass */
+/* line 565, H:/proj/musson/sass/style.sass */
 table th.vertical .button:hover, th th.vertical .button:hover {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6fb50b), color-stop(100%, #417300));
   background: -webkit-linear-gradient(top, #6fb50b, #417300);
@@ -798,7 +802,7 @@ table th.vertical .button:hover, th th.vertical .button:hover {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5), inset 0 1px 0 #6fb50b;
   background-color: green;
 }
-/* line 568, H:/proj/musson/sass/style.sass */
+/* line 570, H:/proj/musson/sass/style.sass */
 table th.vertical .button .arrow, th th.vertical .button .arrow {
   background-image: url(../img/arrow.png);
   width: 36px;
@@ -807,7 +811,7 @@ table th.vertical .button .arrow, th th.vertical .button .arrow {
   bottom: 31px;
   left: 260px;
 }
-/* line 576, H:/proj/musson/sass/style.sass */
+/* line 578, H:/proj/musson/sass/style.sass */
 table th.vertical .button .btn, th th.vertical .button .btn {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -828,7 +832,7 @@ table th.vertical .button .btn, th th.vertical .button .btn {
   background: transparent;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.27);
 }
-/* line 591, H:/proj/musson/sass/style.sass */
+/* line 593, H:/proj/musson/sass/style.sass */
 table th.horizontal, th th.horizontal {
   width: 650px;
   height: 40px;
@@ -837,7 +841,7 @@ table th.horizontal, th th.horizontal {
   font-size: 18px;
   font-weight: normal;
 }
-/* line 599, H:/proj/musson/sass/style.sass */
+/* line 601, H:/proj/musson/sass/style.sass */
 table td, th td {
   font-size: 20px;
   width: 160px;
@@ -845,23 +849,23 @@ table td, th td {
   border-right: dotted 1px lightgrey;
   border-bottom: solid 1px lightgrey;
 }
-/* line 605, H:/proj/musson/sass/style.sass */
+/* line 607, H:/proj/musson/sass/style.sass */
 table td span, th td span {
   font-weight: bold;
 }
 
-/* line 607, H:/proj/musson/sass/style.sass */
+/* line 609, H:/proj/musson/sass/style.sass */
 .order, .orderBottom {
   background: url(../img/zakaz.jpg) center no-repeat;
   height: 610px;
   margin-top: 15px;
 }
-/* line 612, H:/proj/musson/sass/style.sass */
+/* line 614, H:/proj/musson/sass/style.sass */
 .order .wrapper, .orderBottom .wrapper {
   height: 510px;
   padding-top: 100px;
 }
-/* line 615, H:/proj/musson/sass/style.sass */
+/* line 617, H:/proj/musson/sass/style.sass */
 .order .wrapper h5, .orderBottom .wrapper h5 {
   display: inline-block;
   position: relative;
@@ -871,22 +875,22 @@ table td span, th td span {
   line-height: 1.1em;
   font-weight: bold;
 }
-/* line 623, H:/proj/musson/sass/style.sass */
+/* line 625, H:/proj/musson/sass/style.sass */
 .order .wrapper .shadow, .orderBottom .wrapper .shadow {
   padding-bottom: 134px;
 }
-/* line 629, H:/proj/musson/sass/style.sass */
+/* line 631, H:/proj/musson/sass/style.sass */
 .order .form-cond .form-inner .message .button .arrow, .orderBottom .form-cond .form-inner .message .button .arrow, .order #feedback .form-inner .message .button .arrow, .orderBottom #feedback .form-inner .message .button .arrow {
   bottom: 218px;
 }
 
-/* line 631, H:/proj/musson/sass/style.sass */
+/* line 633, H:/proj/musson/sass/style.sass */
 .crossLine {
   text-align: center;
   float: none;
   display: inline-block;
 }
-/* line 635, H:/proj/musson/sass/style.sass */
+/* line 637, H:/proj/musson/sass/style.sass */
 .crossLine h2 {
   float: left;
   font-size: 34px;
@@ -895,24 +899,24 @@ table td span, th td span {
   margin: 0 25px;
   line-height: 1.1em;
 }
-/* line 643, H:/proj/musson/sass/style.sass */
+/* line 645, H:/proj/musson/sass/style.sass */
 .crossLine .dash {
   background: url(../img/dash.png) center center no-repeat;
   width: 60px;
   height: 36px;
 }
 
-/* line 647, H:/proj/musson/sass/style.sass */
+/* line 649, H:/proj/musson/sass/style.sass */
 .partners {
   text-align: center;
   margin-top: 40px;
 }
-/* line 650, H:/proj/musson/sass/style.sass */
+/* line 652, H:/proj/musson/sass/style.sass */
 .partners .hows {
   margin: 100px auto 0;
   width: 1009px;
 }
-/* line 655, H:/proj/musson/sass/style.sass */
+/* line 657, H:/proj/musson/sass/style.sass */
 .partners .block p {
   margin-right: 20px;
   font-size: 18px;
@@ -920,46 +924,46 @@ table td span, th td span {
   line-height: 1.1em;
 }
 
-/* line 660, H:/proj/musson/sass/style.sass */
+/* line 662, H:/proj/musson/sass/style.sass */
 .certificates {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 40px;
 }
-/* line 664, H:/proj/musson/sass/style.sass */
+/* line 666, H:/proj/musson/sass/style.sass */
 .certificates img {
   float: left;
   margin-right: 20px;
 }
 
-/* line 667, H:/proj/musson/sass/style.sass */
+/* line 669, H:/proj/musson/sass/style.sass */
 .belongs {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 10px;
 }
-/* line 671, H:/proj/musson/sass/style.sass */
+/* line 673, H:/proj/musson/sass/style.sass */
 .belongs .formWide {
   background: white;
 }
-/* line 674, H:/proj/musson/sass/style.sass */
+/* line 676, H:/proj/musson/sass/style.sass */
 .belongs img {
   float: left;
   margin-right: 30px;
   margin-bottom: 40px;
 }
-/* line 678, H:/proj/musson/sass/style.sass */
+/* line 680, H:/proj/musson/sass/style.sass */
 .belongs .formWide .formInner h6 {
   right: 581px;
 }
 
-/* line 681, H:/proj/musson/sass/style.sass */
+/* line 683, H:/proj/musson/sass/style.sass */
 .reviews {
   text-align: center;
   margin-bottom: 40px;
   margin-top: 50px;
 }
-/* line 686, H:/proj/musson/sass/style.sass */
+/* line 688, H:/proj/musson/sass/style.sass */
 .reviews .button {
   height: 40px;
   border: 1px ridge transparent;
@@ -981,7 +985,7 @@ table td span, th td span {
   -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5), inset 0 1px 0 #e02200;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5), inset 0 1px 0 #e02200;
 }
-/* line 698, H:/proj/musson/sass/style.sass */
+/* line 700, H:/proj/musson/sass/style.sass */
 .reviews .button:hover {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6fb50b), color-stop(100%, #417300));
   background: -webkit-linear-gradient(top, #6fb50b, #417300);
@@ -993,7 +997,7 @@ table td span, th td span {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5), inset 0 1px 0 #6fb50b;
   background-color: green;
 }
-/* line 703, H:/proj/musson/sass/style.sass */
+/* line 705, H:/proj/musson/sass/style.sass */
 .reviews .button .arrow {
   background-image: url(../img/arrow.png);
   width: 36px;
@@ -1002,7 +1006,7 @@ table td span, th td span {
   bottom: 30px;
   left: 225px;
 }
-/* line 711, H:/proj/musson/sass/style.sass */
+/* line 713, H:/proj/musson/sass/style.sass */
 .reviews .button .btn {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1023,11 +1027,11 @@ table td span, th td span {
   background: transparent;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.27);
 }
-/* line 727, H:/proj/musson/sass/style.sass */
+/* line 729, H:/proj/musson/sass/style.sass */
 .reviews .wrapper {
   padding-top: 50px;
 }
-/* line 731, H:/proj/musson/sass/style.sass */
+/* line 733, H:/proj/musson/sass/style.sass */
 .reviews .view {
   width: 470px;
   height: 550px;
@@ -1039,46 +1043,46 @@ table td span, th td span {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 737, H:/proj/musson/sass/style.sass */
+/* line 739, H:/proj/musson/sass/style.sass */
 .reviews .view .person {
   margin-top: 35px;
 }
-/* line 739, H:/proj/musson/sass/style.sass */
+/* line 741, H:/proj/musson/sass/style.sass */
 .reviews .view .person img {
   float: left;
   margin-left: 35px;
   margin-bottom: 40px;
 }
-/* line 743, H:/proj/musson/sass/style.sass */
+/* line 745, H:/proj/musson/sass/style.sass */
 .reviews .view .text {
   text-align: left;
   margin-left: 20px;
   font-weight: bold;
 }
-/* line 747, H:/proj/musson/sass/style.sass */
+/* line 749, H:/proj/musson/sass/style.sass */
 .reviews .view .text p {
   margin: 0;
   font-size: 24px;
 }
-/* line 750, H:/proj/musson/sass/style.sass */
+/* line 752, H:/proj/musson/sass/style.sass */
 .reviews .view .text a {
   font-size: 16px;
 }
-/* line 753, H:/proj/musson/sass/style.sass */
+/* line 755, H:/proj/musson/sass/style.sass */
 .reviews .view .personBorder {
   background: url(../img/personBorder.png);
   width: 366px;
   height: 19px;
   margin-left: 40px;
 }
-/* line 758, H:/proj/musson/sass/style.sass */
+/* line 760, H:/proj/musson/sass/style.sass */
 .reviews .view .personReview {
   margin-left: 30px;
   margin-right: 25px;
   margin-top: 30px;
   line-height: 1.2em;
 }
-/* line 764, H:/proj/musson/sass/style.sass */
+/* line 766, H:/proj/musson/sass/style.sass */
 .reviews .view .personReview blockquote {
   font-size: 18px;
   padding: 0;
@@ -1088,7 +1092,7 @@ table td span, th td span {
   background: url(../img/openQuote.png) no-repeat;
   text-indent: 0;
 }
-/* line 774, H:/proj/musson/sass/style.sass */
+/* line 776, H:/proj/musson/sass/style.sass */
 .reviews .view .personReview blockquote span {
   display: block;
   background: url(../img/closeQuote.png) bottom right no-repeat;
@@ -1096,60 +1100,97 @@ table td span, th td span {
   padding-right: 30px;
 }
 
-/* line 780, H:/proj/musson/sass/style.sass */
+/* line 782, H:/proj/musson/sass/style.sass */
 .orderBottom {
   background: url(../img/order.jpg) center no-repeat;
 }
-/* line 787, H:/proj/musson/sass/style.sass */
+/* line 789, H:/proj/musson/sass/style.sass */
 .orderBottom .form-cond .form-inner .caption p, .orderBottom #feedback .form-inner .caption p {
   margin-top: 15px;
   margin-bottom: 9px;
   line-height: 1.1em;
 }
-/* line 791, H:/proj/musson/sass/style.sass */
+/* line 793, H:/proj/musson/sass/style.sass */
 .orderBottom .form-cond .form-inner .arrow, .orderBottom #feedback .form-inner .arrow {
   top: 228px;
 }
-/* line 795, H:/proj/musson/sass/style.sass */
+/* line 797, H:/proj/musson/sass/style.sass */
 .orderBottom .wrapper {
   padding-top: 70px;
   height: 389px;
 }
-/* line 798, H:/proj/musson/sass/style.sass */
+/* line 800, H:/proj/musson/sass/style.sass */
 .orderBottom .wrapper .form-inner {
   width: 500px;
 }
-/* line 800, H:/proj/musson/sass/style.sass */
+/* line 802, H:/proj/musson/sass/style.sass */
 .orderBottom .wrapper .form-inner .form-cond, .orderBottom .wrapper .form-inner #feedback {
   height: 609px;
 }
-/* line 803, H:/proj/musson/sass/style.sass */
+/* line 805, H:/proj/musson/sass/style.sass */
 .orderBottom .wrapper .shadow {
   top: 313px;
   padding-bottom: 0;
 }
-/* line 807, H:/proj/musson/sass/style.sass */
+/* line 809, H:/proj/musson/sass/style.sass */
 .orderBottom .wrapper h5 {
   bottom: 20px;
   top: 0;
   width: 495px;
 }
 
-/* line 811, H:/proj/musson/sass/style.sass */
+/* line 813, H:/proj/musson/sass/style.sass */
 .footer {
   margin-bottom: 30px;
 }
 
-/* line 817, H:/proj/musson/sass/style.sass */
+/* line 819, H:/proj/musson/sass/style.sass */
 #feedback .form-inner .message .button .arrow {
   bottom: 55px;
 }
-/* line 819, H:/proj/musson/sass/style.sass */
+/* line 821, H:/proj/musson/sass/style.sass */
 #feedback .form-inner .caption p {
   width: 240px;
 }
 
-/* line 822, H:/proj/musson/sass/style.sass */
+/* line 824, H:/proj/musson/sass/style.sass */
 .animated {
   visibility: hidden;
+}
+
+/* line 827, H:/proj/musson/sass/style.sass */
+.frame {
+  padding: 0;
+  width: 300px;
+  height: 400px;
+}
+/* line 831, H:/proj/musson/sass/style.sass */
+.frame .slidee {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+}
+/* line 836, H:/proj/musson/sass/style.sass */
+.frame .slidee li {
+  float: left;
+  margin: 0 0 5px 0;
+  padding: 0;
+  width: 100%;
+  height: 100px;
+}
+
+/* line 844, H:/proj/musson/sass/style.sass */
+.scrollbar {
+  width: 10px;
+  height: 400px;
+  position: relative;
+  bottom: 390px;
+  left: 258px;
+}
+/* line 850, H:/proj/musson/sass/style.sass */
+.scrollbar .handle {
+  width: 100%;
+  height: 100px;
+  background: #222222;
 }
