@@ -17,6 +17,8 @@
       <option name="suppressedTasks">
         <set>
           <option value="SASS" />
+          <option value="SCSS" />
+          <option value="compass scss" />
         </set>
       </option>
     </inspection_tool>
